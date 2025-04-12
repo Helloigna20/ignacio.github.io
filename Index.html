@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./Assets/codigo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@90.9,316&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <a class="navegacion__enlace" href="#presentacion">
+                <h2 class="navegacion__titulo">Mi Portfolio</h2>
+            </a>
+            <ul class="enlaces">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#sobre-mí">Sobre mí</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor_info">
+                <h1 class="presentacion__titulo">¿Quién soy?</h1>
+                <p class="presentacion__parrafo">Mi nombre es Ignacio Valentín Ojeda, nacido en Chaco, Argentina.
+                    Actualmente tengo 19 años y estoy estudiando una licenciatura en análisis de sistemas en la
+                    UNSA(Universidad nacional de Salta). En años anteriores estudié en cursos de diseño Web Responsive y
+                    programación backend en Javascript en la UTN (Universidad tecnológica nacional). Me apasiona el
+                    desarrollo de software y disfruto mucho de aprender algo nuevo todos los días.
+                </p>
+                <div class="presentacion__contenedor_botones">
+                    <a class="boton" href="#sobre_mí" role="button">Sobre mí</a>
+                    <a class="boton boton_negro" href="./Assets/Docs/Curriculum vitae.pdf" role="button"
+                        target="_blank">Descargar CV</a>
+                </div>
+            </div>
+        </section>
+        <article class="articulo sobre_mi" id="sobre-mí">
+            <h2 class="articulo__titulo">Un poco sobre mí</h2>
+            <div class="articulo__contenedor_descripciones">
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen" src="./Assets/imagenes/profiles/selfie pro.jpg"
+                            alt="Selfie de mi cara" title="Selfie de Ignacio Valentín Ojeda">
+                    </div>
+                    <div class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                        aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                            Mi historia
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Nací el 28 de diciembre de 2005 en la provincia de Chaco-Resistencia, Argentina. Mi primer
+                            recuerdo es estar sentado en el regazo de mi padre, hipnotizado por una pantalla de 16
+                            pulgadas, en la que observaba por horas como mi padre trabajaba, jugaba o realizaba
+                            cualquier actividad en ella. Cautivado por las infinitas posibilidades que nos proporciona
+                            una computadora.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            A los 12 años decidí que era lo que quería hacer por el resto de mi vida. La decisión fue
+                            fácil, dedicarme a la informática. Mi madre pensó que era algo que cesaría con el tiempo,
+                            pero luego de unos años se dio cuenta de que realmente era lo mío. Desde ese momento tuve su
+                            total apoyo y pude adentrarme profundamente en este mundo.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Durante la secundaria hice varios cursos. Como la mayoría, di mis primeros pasos en el
+                            desarrollo web responsive (HTML y CSS), luego de eso quise explorar más el mundo Backend,
+                            adentrándome así en Phyton y JavaScript, escribiendo mis primeros "Hola mundo", quedando
+                            fascinado. A los 18 tuve que elegir una carrera, y opte por una licenciatura en análisis de
+                            sistemas, aprendiendo así los fundamentos de la programación y bastante matemática, durante
+                            este periodo estudio el lenguaje C.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+                            aria-describedby="mi_historia_titulo">
+                            Actualmente estoy en mi primer año de la carrera, y sigo aprendiendo por mi cuenta. Disfruto
+                            mucho el aprender algo nuevo todos los días. Mi sueño es poder ganarme la vida dedicándome a
+                            lo que me apasiona, el desarrollo de software.
+                        </p>
+                    </div>
+                </section>
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+                        aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+                            Mis hobbies
+                        </h3>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+                            aria-describedby="mis_hobbies_titulo">
+                            Disfruto mucho de la lectura, sobre todos libros del género criminal o thrillers. Mi libro
+                            favorito es "Carrie" de Stephen King. Generalmente dedico de 1 a 3 horas al día a la
+                            lectura, trato de mantener una constancia.
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+                            aria-describedby="mis_hobbies_titulo">
+                            También me encantan las películas, sobre todo las más antiguas. Mi película favorita es
+                            "Pulp Fiction" de Quentin Tarantino. De igual manera mi género favorito son los
+                            thrillers-psicológicos. Aunque también me gustan las comedias, o algunas románticas como "La
+                            La Land".
+                        </p>
+                        <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+                            aria-describedby="mis_hobbies_titulo">
+                            Todos los findes de semanas, trato de hacerme un tiempo exclusivamente para mi perro,
+                            "Ciro". Trato de dar largas caminatas con él para así poder despejarnos ambos y tomar un
+                            poco de aire fresco. Es mi mejor amigo desde que tengo 13 años. Es un Jack Russell Terrier,
+                            y es un perro bastante energético.
+                        </p>
+                    </div>
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__imagen" src="./Assets/imagenes/profiles/Yo y Ciro.jpg"
+                            alt="Yo junto a mi mejor amigo" title="Yo junto a mi mejor amigo Ciro" />
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+    <footer class="pie_de_pagina" role="contentinfo">
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Redes</h4>
+            <ul class="enlaces enlaces_redes">
+                <li class="enlaces__item">
+                    <a class="enlaces_enlace enlaces_enlace_footer" href="https://github.com/Helloigna20"
+                        target="_blank"><img class="enlaces__icono" src="./Assets/imagenes/logos/github.ico"
+                            alt="Mi GitHub" title="Mi GitHub" />
+                    </a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces_enlace enlaces_enlace_footer"
+                        href="https://www.linkedin.com/in/ignacio-ojeda-090878338/" target="_blank"><img
+                            class="enlaces__icono" src="./Assets/imagenes/logos/linkedin.ico" alt="Mi LinkedIn"
+                            title="Mi LinkedIn" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+            <ul class="enlaces enlaces_vertical">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces__enlace_footer" href="mailto:vvalentinojeda18@gmail.com"
+                        target="_blank">
+                        Vvalentinojeda18@gmail.com
+                    </a>
+                </li>
+                <li class="enlaces__item">
+                    <p class="enlaces__enlace enlaces__enlace_footer">+54 9 387 594-8773</p>
+                </li>
+            </ul>
+        </div>
+        <div class="pie_de_pagina__columna role=navigation">
+            <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+            <ul class="enlaces enlaces_vertical">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces_enlace_footer" href="#presentacion">Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces_enlace_footer" href="#sobre-mí">Sobre mí</a>
+                </li>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace enlaces_enlace_footer" href="#proyectos">Proyectos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="pie_de_pagina__copyright">
+            <p>© 2024 Ignacio Valentín Ojeda</p>
+        </div>
+    </footer>
+</body>
+
+</html>
